@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>min_night</title>
+    <link>/</link>
+    <description>Recent content on min_night</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2021 20:36:35 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇博客</title>
+      <link>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 12 Apr 2021 20:36:35 +0800</pubDate>
+      
+      <guid>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;categories: //分类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日志  //可以随便改&lt;/li&gt;
+&lt;li&gt;生活
+tags:   //标签&lt;/li&gt;
+&lt;li&gt;tag1  //可以随便改&lt;/li&gt;
+&lt;li&gt;tag2
+keywords:   //关键词，搜索用的&lt;/li&gt;
+&lt;li&gt;tech
+#thumbnailImage: //example.com/image.jpg    //文章里面的图片封面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
