@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiayue233.github,io/categories/</loc>
+    <loc>http://xiayue233.github.io/learninghowtolearn/</loc>
+    <lastmod>2021-05-09T15:53:01+08:00</lastmod>
   </url><url>
-    <loc>https://xiayue233.github,io/tags/</loc>
+    <loc>http://xiayue233.github.io/categories/</loc>
   </url><url>
-    <loc>https://xiayue233.github,io/</loc>
+    <loc>http://xiayue233.github.io/tags/</loc>
+  </url><url>
+    <loc>http://xiayue233.github.io/</loc>
   </url>
 </urlset>
