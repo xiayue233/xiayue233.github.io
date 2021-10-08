@@ -6,7 +6,25 @@
     <description>Recent content on 夏月的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 08 Oct 2021 15:22:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Oct 2021 16:16:38 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EXCEL学习笔记</title>
+      <link>/2021/10/08/excel%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 08 Oct 2021 16:16:38 +0800</pubDate>
+      
+      <guid>/2021/10/08/excel%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>EXCEL学习笔记 （2021/8/4）
+单元格长宽调整:  拖动格间边界 左键双击边界&amp;ndash;按合适长度缩放 选中行列以及要调整区域+移动行列行边界松开&amp;ndash;所选格宽度高度相同  光标移动  上下左右键鼠标点击 tab向右 shift+tab向左 enter键接着启动  置中   选中单元格点击对齐方式居中
+  创建跨多列标签&amp;ndash;合并单元格并居中
+  自动填充（自定义序列）  选中单元格（呈现变化规律）右下角小十字向下拉+系统按规律填充  日期   8,4 8.4 8月4日尽量不要有
+  选取2021/8/4斜杠形式 可用函数
+  control+: &amp;ndash; 打印当前日期
+  从下拉列表中选择  右键单元格找到从下拉列表中选择&amp;ndash;可直接打印先前打印过的内容  计算   10 * 20 = ——&amp;gt; = D2 *E3 等号放前面 行列号写出/点击
+  修改公式：选中单元格上方界面有公式/左键双击
+  复制粘贴单元格——可复制公式
+  下拉单元格——自动填充</description>
+    </item>
+    
     <item>
       <title>Typora自主学习</title>
       <link>/2021/10/08/typora%E8%87%AA%E4%B8%BB%E5%AD%A6%E4%B9%A0/</link>
@@ -239,24 +257,6 @@ column：主轴为垂直方向，起点在下沿</description>
       
       <guid>/1/01/01/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/</guid>
-      <description>EXCEL学习笔记 （2021/8/4）
-单元格长宽调整:  拖动格间边界 左键双击边界&amp;ndash;按合适长度缩放 选中行列以及要调整区域+移动行列行边界松开&amp;ndash;所选格宽度高度相同  光标移动  上下左右键鼠标点击 tab向右 shift+tab向左 enter键接着启动  置中   选中单元格点击对齐方式居中
-  创建跨多列标签&amp;ndash;合并单元格并居中
-  自动填充（自定义序列）  选中单元格（呈现变化规律）右下角小十字向下拉+系统按规律填充  日期   8,4 8.4 8月4日尽量不要有
-  选取2021/8/4斜杠形式 可用函数
-  control+: &amp;ndash; 打印当前日期
-  从下拉列表中选择  右键单元格找到从下拉列表中选择&amp;ndash;可直接打印先前打印过的内容  计算   10 * 20 = ——&amp;gt; = D2 *E3 等号放前面 行列号写出/点击
-  修改公式：选中单元格上方界面有公式/左键双击
-  复制粘贴单元格——可复制公式
-  下拉单元格——自动填充</description>
     </item>
     
     <item>
