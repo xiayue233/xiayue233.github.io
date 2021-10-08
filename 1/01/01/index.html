@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="canonical" href="/1/01/01/">
+        <style>
+
+    html body {
+        font-family: 'Mina', sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    :root {
+        --accent: #386890;
+        --border-width:  0 ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/lakeside-light.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+
+<script>
+$(document).ready(function(){
+    
+  var input = $('#night-mode-toggle');
+  var container = $('#bigbody');
+  var stat = $('#button-status');
+  
+  container.toggleClass(localStorage.toggled);
+  stat.bootstrapToggle(localStorage.button).change();
+  
+  input.on('click', function() {
+      if (localStorage.toggled != "-nightmode" ) {
+          container.toggleClass("-nightmode", true );
+          localStorage.toggled = "-nightmode";
+          localStorage.button = "on";
+       } else {
+          container.toggleClass("-nightmode", false );
+          localStorage.toggled = "";
+          localStorage.button = "off"
+       }
+  })
+});
+</script>
+ <meta name="generator" content="Hugo 0.82.0" />
+        <link href="" rel="alternate" type="application/rss+xml" title="夏月的博客" />
+        <link href="" rel="feed" type="application/rss+xml" title="夏月的博客" />
+        
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    <meta property="og:title" content="">
+    <meta property="og:type" content="article">
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="/favicon/android-chrome-192x192.png" >
+      
+    <meta property="description" content="">
+    <meta property="og:description" content="">
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+    
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body id = "bigbody">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#"></a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/tags/">Tags</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:nathancday@gmail.com"><i class="far fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/NathanCDay"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/natedayta/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nathan-day-59b48435/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/users/5878751/nate"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                            <li id="night-mode-toggle">
+    <input type="checkbox" id = "button-status"
+        data-toggle="toggle"
+        data-width = "10"
+        data-height = "1"
+        data-on="<i class='far fa-moon fa-lg'></i>"
+        data-off= "<i class='far fa-sun fa-lg'></i>"
+        data-style="ios"
+        data-onstyle = "default">
+</li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+      
+    
+
+    <h4><a href="/1/01/01/"></a></h4>
+    <h5>January 1, 0001 - 2 minutes</h5>
+    <h5></h5>
+
+    
+    
+
+</div>
+
+
+    <br> <div class="text-justify"><p>面向过程语言：c</p>
+<p>面向对象语言：java</p>
+<p>对象</p>
+<p>类</p>
+<p>对象和类的关系</p>
+<p>java比c更常用的原因：安装JRE可在不同系统下应用</p>
+<p>c&mdash;.exe&mdash;（010101）</p>
+<p>java&mdash;JRE（环境）&mdash;.class（字节码）</p>
+<p>UML（统一建模语言）类图:用图形表示类和对象</p>
+<p>构造方法创建对象只能用一次</p>
+<p>要求：能识别会画图viso Rose</p>
+<p>类定义：</p>
+<p>{修饰符列表} class类名{</p>
+<p>类名 属性；</p>
+<p>构造方法名（）{</p>
+<p>}</p>
+<p>方法（）{</p>
+<p>}</p>
+<p>}</p>
+<p>成对出现</p>
+<p>读取器getA():int</p>
+<p>int getA(){</p>
+<p>return a;</p>
+<p>}</p>
+<p>修改器setA(int nA):void</p>
+<p>void setA(int nA){</p>
+<p>a=nA;</p>
+<p>}</p>
+<p>引用类型变量存储引用，是对象的存储地址</p>
+<p>基本类型变量板寸基本类型值</p>
+<p>静态方法</p>
+<h1 id="syntax-error-insert--to-complete-block">Syntax error, insert &ldquo;}&rdquo; to complete Block</h1>
+<p>空格中文分号</p>
+<p>类常量放在类里面</p>
+<p>数据域在类里面，不在主方法里面</p>
+<p>java中习惯将类的成员变量属性设置为私有(private),并通过设置setXXX和getXXX方法来完成对成员变量的赋值和取值操作</p>
+<p>定义包后成功查找</p>
+<p>不能定义toString()变量-有返回值</p>
+<p>UML类图</p>
+<p>变量的作用域</p>
+<p>-private私有的&ndash;同类</p>
+<p>+public公共的&ndash;同包</p>
+<p>无default&ndash;不同包</p>
+<p>——下划线：静态变量或方法</p>
+<p>成员变量：类中定义 作用域：整个类体 初始化方式：使用前可不进行初始化由系统自行完成，只声明一次</p>
+<p>局部变量：类成员方法里变量+方法参数 作用域：方法 只限于定义它的代码块 初始化方式：在使用前必须初始化</p>
+<p>相同名字，局部变量优先，this.a引用成员变量</p>
+<p>私有属性公有方法读取器修改器操作</p>
+<p>System.out.println(c1.radius);</p>
+<p>System.out.println(c1.getRadius（)）;</p>
+<p>class Circle{</p>
+<p>private double radius;C</p>
+<p>public double getRaius(){</p>
+<p>return radius;</p>
+<p>}</p>
+<p>}</p>
+<p>静态变量被类中所有对象共享</p>
+<p>==静态方法不能访问类中的实例成员（实例数据域和方法）==</p>
+<p>继承与多态</p>
+<ol>
+<li>
+<p>子类与父类</p>
+<p>父类：抽象一类事物的共同属性和方法（类继承通用类）(superclass超类)-父类型</p>
+<p>子类：添加特殊事物的特殊属性和方法 （extends 继承类）-子类型</p>
+<p>子类是父类的特列</p>
+<p>语法</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">[</span>修饰符<span style="color:#960050;background-color:#1e0010">（</span><span style="color:#66d9ef">public</span><span style="color:#960050;background-color:#1e0010">）</span><span style="color:#f92672">]</span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">子类名</span> <span style="color:#66d9ef">extends</span> 父类名<span style="color:#f92672">{</span>
+    <span style="color:#f92672">[</span>修饰符<span style="color:#f92672">][</span><span style="color:#66d9ef">static</span><span style="color:#f92672">]</span>类型 属性<span style="color:#960050;background-color:#1e0010">；</span>
+        <span style="color:#f92672">[</span>修饰符<span style="color:#f92672">]</span>构造方法名<span style="color:#f92672">(</span>参数类型 参数1<span style="color:#f92672">){</span>
+        方法体
+    <span style="color:#f92672">}</span>
+    <span style="color:#f92672">[</span>修饰符<span style="color:#f92672">][</span><span style="color:#66d9ef">static</span><span style="color:#f92672">]</span> 返回值类型 方法名<span style="color:#960050;background-color:#1e0010">（</span>参数类型 参数1<span style="color:#960050;background-color:#1e0010">）</span><span style="color:#f92672">{</span>
+        方法体<span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>访问控制修饰符</p>
+<p>extends关键字&ndash; 继承</p>
+<p>boolean默认假</p>
+</li>
+<li>
+<p>继承：在父类的基础上添加新的成员属性和成员方法，产生新的类（子类）（单一继承）（不能多重继承-靠接口）</p>
+<p>“is-a”关系（subsumption) D is a B(D被包含在B内)</p>
+<p>子类继承父类的成员属性和成员方法 &ndash;隐式父类方法</p>
+<p>用父类中公共的访问器修改器方法来获取私有成员变量</p>
+<p>不继承构造方法，super调用构造方法或普通方法 ，不能写成</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">a</span><span style="color:#f92672">=</span>a<span style="color:#f92672">;</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th>控制修饰符</th>
+<th>同一类</th>
+<th>同一包</th>
+<th>不同类中的子类</th>
+<th>不同类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>protected</td>
+<td>√</td>
+<td>√</td>
+<td>==√==</td>
+<td>×</td>
+</tr>
+<tr>
+<td>default</td>
+<td>==√==</td>
+<td>==√==</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<td>private</td>
+<td>√</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr>
+<td>public</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+</tbody>
+</table>
+<p>默认的成员变量和成员方法可以被同包中的其他类访问，可以被同包的子类访问（子类可以继承父类的默认成员变量和成员方法）</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">double</span> a<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Circle1</span><span style="color:#f92672">(</span><span style="color:#66d9ef">double</span> a<span style="color:#f92672">,</span><span style="color:#66d9ef">double</span> b<span style="color:#f92672">,</span> <span style="color:#66d9ef">double</span> c<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">a</span><span style="color:#f92672">=</span>a<span style="color:#f92672">;</span>
+    setB<span style="color:#f92672">(</span>b<span style="color:#f92672">);</span>
+    setB<span style="color:#f92672">(</span>c<span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span><span style="color:#75715e">//b、c是父类的私有成员变量
+</span></code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">double</span> a<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Circle1</span><span style="color:#f92672">(</span><span style="color:#66d9ef">double</span> a<span style="color:#f92672">,</span><span style="color:#66d9ef">double</span> b<span style="color:#f92672">,</span> <span style="color:#66d9ef">double</span> c<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">a</span><span style="color:#f92672">=</span>a<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">b</span><span style="color:#f92672">=</span>b<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">c</span><span style="color:#f92672">=</span>c<span style="color:#f92672">;</span>
+<span style="color:#f92672">}</span><span style="color:#75715e">//b、c是父类的默认成员变量
+</span></code></pre></div></li>
+<li>
+<p>Object类</p>
+<p>toString ()方法 返回 类名@对象内存地址</p>
+</li>
+<li>
+<p>super</p>
+<p>用super表明 表示父类对象的显示调用</p>
+<ol>
+<li>
+<p>调用父类的构造方法（放在第一句）</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">super</span><span style="color:#f92672">()</span>
+<span style="color:#66d9ef">super</span><span style="color:#f92672">(</span>参数列表<span style="color:#f92672">)</span>
+</code></pre></div></li>
+<li>
+<p>调用父类的成员属性和成员方法</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">成员属性</span>
+<span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">成员方法</span><span style="color:#960050;background-color:#1e0010">（</span>用父类同名方法时必须用super 其余可省略<span style="color:#960050;background-color:#1e0010">）</span>
+</code></pre></div></li>
+<li>
+<p>构造方法链：</p>
+<p>一个子类对象内部包含父类的对象</p>
+<p>父类里要有不带参的构造方法占位置</p>
+<p>没有显示定义构造方法，编译器自动隐式调用默认无参构造方法</p>
+<p>有显示定义构造方法，则编译器不会自动调用，因而无参构造方法</p>
+<p>构造类的实例时，会调用沿着继承链的所有父类的构造方法&ndash;子类构造方法在完成任务前先调用父类的构造方法</p>
+</li>
+</ol>
+<p>​</p>
+</li>
+<li>
+<p>override 方法重写：提供方法新实现</p>
+<p>同名同参同返回值</p>
+<p>子类对父类进行重写  覆盖</p>
+<p>静态方法能被继承但不能被重写，只会被重新定义，原来的被隐藏</p>
+<p>重写标注：自类方法前加@Override</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Override</span>
+<span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">toString</span><span style="color:#f92672">(){</span> 
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>方法重载：同样名字不同签名来定义多个方法</p>
+<p>同名 不一定同返回值  不同参数</p>
+<p>可在同一类中，可在具有继承关系的不同类中</p>
+<p>多态性：一个父类的某个方法被多个子类覆盖，产生各自的行为</p>
+<ol>
+<li>子类继承父类</li>
+<li>子类方法覆盖父类方法</li>
+<li>父类引用指向子类对象</li>
+</ol>
+<p>父类型的变量可以引用子类型的对象   (A类是B类的父类)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">A a<span style="color:#f92672">;</span>
+a <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> B<span style="color:#f92672">();</span>
+   
+A a<span style="color:#f92672">;</span>
+B b <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> B<span style="color:#f92672">();</span>
+a<span style="color:#f92672">=</span>b<span style="color:#f92672">;</span>
+a:形参 b<span style="color:#f92672">:</span>实参
+</code></pre></div></li>
+</ol>
+<p>父类的引用指向子类的对象时，不能访问子类新增加的成员变量和成员方法。</p>
+<p>声明类型：声明变量时的类型</p>
+<p>编译期间，依据声明的类型，判断引用可以调用的方法</p>
+<p>当父类型的变量引用指向子类对象时，只能调用父类的方法</p>
+<p>实际类型：对象的实际类型，由创建对象的构造方法决定</p>
+<p>运行期间，判断所引用对象的实际类型</p>
+<p>动态绑定：方法可以在沿着继承链的多个类中实现，JVM决定运行时调用哪个方法，由变量的实际类型Geometricobject决定,Object为声明类型，Object是Geometricobject的父类</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Object o <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GeometricObject<span style="color:#f92672">();</span>
+</code></pre></div><p>重载</p>
+<p>父类引用指向子类变量</p>
+<p>重写</p>
+<p>抽象类</p>
+<p>接口</p>
+<p>抽象类</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">A</span>
+<span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">min</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">,</span><span style="color:#66d9ef">int</span> y<span style="color:#f92672">)</span><span style="color:#960050;background-color:#1e0010">；</span>
+<span style="color:#66d9ef">protected</span> <span style="color:#a6e22e">A</span><span style="color:#f92672">(){};</span>
+</code></pre></div><p>抽象类 抽象方法：斜体</p>
+<p>抽象方法只有定义，没有实现，没有方法体</p>
+<p>抽象父类只有方法名，没有方法体</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">getArea</span><span style="color:#f92672">();</span>
+</code></pre></div><p>子类继承父类抽象方法补齐</p>
+<p>子类将父类的抽象方法具体化 有返回值不为空</p>
+<p>抽象类的构造方法用protected修饰，只能被子类使用</p>
+<p>抽象类不能用new运算符创建对象</p>
+<p>==继承自抽象类的非抽象子类中，必须实现所有方法==</p>
+<p>抽象方法是静态的</p>
+<p>接口interface</p>
+<p>如果抽象类的所有的方法都是抽象方法，则可以考虑接口</p>
+<p>接口是特殊的抽象类</p>
+<p>接口属性必为常数，且权限必为public 可省略final static</p>
+<p>接口方法是公共的抽象方法，允许省略public abstract</p>
+<p>接口的声明格式</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">[</span><span style="color:#66d9ef">public</span><span style="color:#f92672">]</span>inferface 接口名 <span style="color:#f92672">[</span><span style="color:#66d9ef">extends</span> 父接口名<span style="color:#f92672">]{</span>
+   <span style="color:#75715e">//静态常量数据成员声明
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">[</span><span style="color:#66d9ef">public</span><span style="color:#f92672">][</span><span style="color:#66d9ef">static</span><span style="color:#f92672">][</span><span style="color:#66d9ef">final</span><span style="color:#f92672">]</span>属性类型 属性名 <span style="color:#f92672">=</span> 常量值<span style="color:#960050;background-color:#1e0010">；</span>
+   <span style="color:#75715e">//抽象方法声明
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">[</span><span style="color:#66d9ef">public</span><span style="color:#f92672">][</span><span style="color:#66d9ef">abstract</span><span style="color:#f92672">]</span>返回值 <span style="color:#a6e22e">方法名</span><span style="color:#f92672">(</span>参数列表<span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>类可以实现（implements)一个或多个接口，逗号隔开</p>
+<p>接口继承（类与接口）</p>
+<p>==实现接口的类必须重写接口的所有方法==</p>
+<p>==继承自抽象类的非抽象子类中，必须实现所有方法==</p>
+<p>多态</p>
+<ol>
+<li>重写</li>
+<li>重载</li>
+<li>动态绑定</li>
+<li>接口  实际类</li>
+<li>强制类型转换</li>
+</ol>
+<p>instanceof</p>
+<p>判断一个对象是否为一个类的实例 return true</p>
+<p>一个子类对象是父类对象的实例</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Object<span style="color:#f92672">[]</span> objects<span style="color:#f92672">={</span><span style="color:#66d9ef">new</span> Tiger<span style="color:#f92672">(),</span><span style="color:#66d9ef">new</span> Chicken<span style="color:#f92672">(),</span><span style="color:#66d9ef">new</span> Apple<span style="color:#f92672">(),</span><span style="color:#66d9ef">new</span> Orange<span style="color:#f92672">()};</span>
+<span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>i<span style="color:#f92672">&lt;</span>objects<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>i<span style="color:#f92672">++){</span>
+   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>object<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#66d9ef">instanceof</span> Edible<span style="color:#f92672">){</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">mout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(((</span>Edible<span style="color:#f92672">)</span>objects<span style="color:#f92672">[</span>i<span style="color:#f92672">]).</span><span style="color:#a6e22e">howToEat</span><span style="color:#f92672">());}}</span>
+</code></pre></div><p>异常处理概述exception</p>
+<p>通过5个关键字管理：try catch finally throw throws</p>
+<p>捕获异常 catch （带参数的方法，参数匹配抛出的值的类型，参数访问被抛出的值）</p>
+<p>throw语句调用catch块处理异常</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">try</span><span style="color:#f92672">{</span>
+    Circle c1<span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Circle<span style="color:#f92672">();</span>
+    c1<span style="color:#f92672">.</span><span style="color:#a6e22e">print</span><span style="color:#f92672">();</span>
+    c1<span style="color:#f92672">.</span><span style="color:#a6e22e">setRadius</span><span style="color:#f92672">(-</span>5<span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>InvalidRadiusException e<span style="color:#f92672">){</span>
+    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
+<span style="color:#f92672">}</span> <span style="color:#66d9ef">finally</span><span style="color:#f92672">{</span>
+    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;继续运行其他代码&#34;</span><span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>声明抛出异常 抛出异常throwing an exception</p>
+<p>InvalidRadiusException(str)  str：描述异常消息  ex.getMessage()</p>
+<p>==throws==关键字在方法中声明异常</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">InvaliRadiusException ex <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InvaliRadiusException<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Radius cannot ve nagetive &#34;</span><span style="color:#f92672">);</span>
+<span style="color:#66d9ef">throw</span> ex<span style="color:#f92672">;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setRadius</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">double</span> b<span style="color:#f92672">)</span><span style="color:#66d9ef">throws</span> InvalidRadiusException<span style="color:#f92672">{</span>
+   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>B<span style="color:#f92672">&gt;=</span>0<span style="color:#f92672">)</span> radius<span style="color:#f92672">=</span>b<span style="color:#f92672">;</span>
+   <span style="color:#66d9ef">else</span>
+       <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InvalidRadiusException<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Radius cannot ve negative&#34;</span><span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>必检异常</p>
+<p>自定义异常</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">InvalidRadiusException</span> <span style="color:#66d9ef">extends</span> Exception<span style="color:#f92672">{</span>
+      <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">InvalidRadiusException</span><span style="color:#f92672">(){</span>
+            <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;半径不能为负\n&#34;</span><span style="color:#f92672">);</span>
+      <span style="color:#f92672">}</span>
+      InvalidRadiusException<span style="color:#f92672">(</span>String exp<span style="color:#f92672">){</span>
+            <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span>exp<span style="color:#f92672">);</span>
+      <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>整数不能除以0</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+</main>
+
+        <footer id = "bigfooter">
+            <div style = "padding:15px;">
+                <p>Powered by <a href="https://gohugo.io">Hugo</a>. Themed by <a href="https://github.com/nathancday/min_night">min_night</a>.
+                </p>
+                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"
+                title="Creative Commons Attribution 4.0 International license">
+                <i class="fab fa-creative-commons" aria-hidden="true"></i> Attribution 4.0 International license
+                </a>
+            </div>
+        </footer>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', '');
+        </script>
+       
+    </body>
+
+</html>
+

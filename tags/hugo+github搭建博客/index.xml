@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo&#43;github搭建博客 on 夏月的博客</title>
+    <link>/tags/hugo&#43;github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in hugo&#43;github搭建博客 on 夏月的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/hugo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇博客</title>
+      <link>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>学习如何用hugo搭建博客并托管到GitHub上 1.按教程搭建流程 （1)注册GitHub 安装git hugo Vs code
+（2）安装hugo 添加环境变量
+（3）检查是否配置成功 cmd
+（4）创建站点
+（5）下载主题
+​ 1）改host
+​ 2）刷新DNS
+​ 3）get clone
+（6）配置主题并编辑内容
+（7）创建博客文章
+（8）启动博客的本地预览
+（9）创建博客文章
+（10）生成静态文件（public）
+（11）设置全局用户名和邮箱（与GitHub一致）
+（12）博客部署或用GitHub desktop上传
+（13）查看博客
+2.问题原因与解决方案 (1)科学上网
+（2）解压软件压缩包后位置与教程不同后续难找到
+（3）找不到文件-未详读教程跳步-范围-搜索
+（4）cmd指令学习
+（5）在特定地方打开编辑（cmd vs git）
+（6）根目录MyBlog
+（7）出现众多问题-重试
+（8）git的全局用户名与GitHub用户名不一致
+（9）get push 时未能连接 未能更新文章成功-之前配置不成功
+3.感受 1）出现问题需自行搜索查找解决方案
+2）查一个问题又遇到问题时可删除从头重试，省却时间，步骤对的话亦可解决问题
+3）每一个坑都可能是成功路上那名为放弃的绊脚石
+4）与他人讨论、探讨、请教有时会比自己搞更加有效率
+5）独立思考必要性</description>
+    </item>
+    
+  </channel>
+</rss>

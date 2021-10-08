@@ -1,0 +1,57 @@
+后端--存储数据、处理数据的部分
+
+主要工作：编写处理数据的业务逻辑，需要记录请求情况和对功能进行测试。
+
+微型项目-TODO
+
+背景：长时间后的任务记录提醒
+
+idea提出：TODO（Django）
+
+需求分析：添加修改删除待办信息，展示待办信息列表
+
+Django:基于Python的web开发框架
+
+本地Djangoy原始项目预览 http://127.0.0.1:8000/
+
+创建项目django-admin startproject todoProject
+
+进文件夹cd todoProject
+
+运行项目python manage.py runserver
+
+![image-20210522135943602](C:\Users\xia'yue\AppData\Roaming\Typora\typora-user-images\image-20210522135943602.png)
+
+![image-20210522141000500](C:\Users\xia'yue\AppData\Roaming\Typora\typora-user-images\image-20210522141000500.png)
+
+
+
+?应该生成表格---√
+
+创建templates static-样式文件夹
+
+两页面跳转
+
+​            <a class="btn btn-primary" href="{% url 'create_todo' %}">添加todo</a>
+
+
+
+
+
+url.py 路径 处理函数 get 方式 返回页面 post处理数据 返回页面
+
+=》增删改查
+
+
+
+update拿过来 改 返回去
+
+删除.delete()
+
+
+
+![image-20210522151144847](C:\Users\xia'yue\AppData\Roaming\Typora\typora-user-images\image-20210522151144847.png)
+
+
+
+小作业：修改+删除（交互）

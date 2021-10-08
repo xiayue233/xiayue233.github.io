@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on 夏月的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>learning how to learn</title>
+      <link>/tags/learning-how-to-learn/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/learning-how-to-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo&#43;github搭建博客</title>
+      <link>/tags/hugo&#43;github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo&#43;github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

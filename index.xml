@@ -6,13 +6,54 @@
     <description>Recent content on 夏月的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 09 May 2021 16:16:43 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Oct 2021 15:22:39 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typora自主学习</title>
+      <link>/2021/10/08/typora%E8%87%AA%E4%B8%BB%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 08 Oct 2021 15:22:39 +0800</pubDate>
+      
+      <guid>/2021/10/08/typora%E8%87%AA%E4%B8%BB%E5%AD%A6%E4%B9%A0/</guid>
+      <description>==Typora学习== 1.即时渲染 2.偏好设置 3.快捷键  Ctrl +shift+[ 有序列表   Ctrl+shift+]无序列表     快捷键 效果     Ctrl +Y 重做   Ctrl +Z 撤销   Ctrl+B 加粗   Ctrl+shift+I 插入图片   Ctrl+shift+[ 有序列表（不能内嵌于表格）   Ctrl+shift+] 无序列表（不能内嵌于表格内）   Ctrl+I 斜体   Ctrl+T 表格（不能嵌套表格）   Ctrl+U 下划线    4.插入代码```c int a=0; import java.util.Scanner; 5.数学公式 $a+b=c $ 公式前后加上$
+对比：a+b=c</description>
+    </item>
+    
     <item>
       <title>前端学习性笔记</title>
       <link>/2021/05/09/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%80%A7%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 09 May 2021 16:16:43 +0800</pubDate>
       
       <guid>/2021/05/09/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%80%A7%E7%AC%94%E8%AE%B0/</guid>
+      <description>一.HTML基础 1.HTML形式为.hmtl结尾的纯文本文件
+2.&amp;lt;!DOCTYPE&amp;gt;声明HTML的模式
+3.两种标签
+闭合标签
+段落 行内元素
+锚点超链接
+图片 src图片地址 alt损坏时的代替文字
+无序列表 有序列表 区块方块
+自闭标签
+输入框 number text type
+二.CSS基础 1.选择器
+2.基础样式 border：&amp;lt;2px&amp;gt;
+margin外边框 padding内边框
+border-radius圆角float脱离文档输出流（置与上方左边右边
+position位置absolute 绝对位置 relative相对定位static正常定fixed固定
+z-index浮于上方下方
+三.JS基础 1.基础语法
+（1）变量声明 let局部变量 var全局变量 const变量
+let a =10；
+const b=0；
+（2）条件语句
+if ( condition 1) { … } if ( condition 2 ) { … } else { … }
+• switch(var) { case condition 1 : …; break; default: …</description>
+    </item>
+    
+    <item>
+      <title>前端学习性笔记</title>
+      <link>/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%80%A7%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 09 May 2021 16:16:43 +0800</pubDate>
+      
+      <guid>/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%80%A7%E7%AC%94%E8%AE%B0/</guid>
       <description>一.HTML基础 1.HTML形式为.hmtl结尾的纯文本文件
 2.&amp;lt;!DOCTYPE&amp;gt;声明HTML的模式
 3.两种标签
@@ -66,6 +107,397 @@ if ( condition 1) { … } if ( condition 2 ) { … } else { … }
 充足的空间和运动 增加神经元连接 接触外界 发现能激励你的人和可以积极参与的活动
 休息锻炼 肌肉大脑
 与他人交流</description>
+    </item>
+    
+    <item>
+      <title>《Learninghowtolearn》学习笔记</title>
+      <link>/2021/04/19/learninghowtolearn%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/19/learninghowtolearn%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>《Learning how to learn》学习笔记 更有效的学习，减少挫败感。
+一.集中思维与发散思维
+初识：集中思维：专注于一段时间，比较常用
+但发散思维未曾尝试过，或者不知道之前尝试过
+《数学思维》A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra) Paperback – Illustrated, July 31, 2014 学习困难事情需要时间，大脑需要在处理和消化新事物时，转变它的学习方式，将集中与发散模式相互切换
+发散模式放松出想法，接触新事物，发散式思考，放一放事情，给自己更多时间，“一觉过后你的大脑就升级了”
+集中模式深入思考，深入钻研问题。
+二.拖延症
+激活疼痛，神经不适
+转移注意，短暂开心
+人们难免会喜欢开心的、简单的，但那些不想做的事往往也是必须要做的，注意力转移到更愉快的事而不去做不想做的事时，是一种往小了说或许是想休息一会儿，往大了说就是享乐主义的逃避
+番茄工作法pomodoro 计时器25min + 屏蔽干扰 +专注 +激励（放松） 通过注意力集中的每一天的短暂期间 越是抽象，越要练习，锻炼神经思维模式
+练习复习-长期记忆
+放松-固化学习思维模式 填鸭式-杂乱堆砌
+工作记忆和长期记忆 工作记忆-有意识的想法 重复 不让 短小精神黑板 长期记忆-储存仓库 时间练习 间隔重复-间隔几天-在数日内重复相关内容，构建更强大的神经结构。
+睡觉-清洁大脑保持健康 整理学习思考过的想法 增强理解思维模式
+三.其他
+敢于创新，去打破对待事物的习惯性看法，在不擅长的领域取得突破并取得成就是可能的，需要的是合适的学习习惯和一定投入时间。
+比起被动听讲，积极参与更加有效率 慢跑-放松重新思考迸发想法
+充足的空间和运动 增加神经元连接 接触外界 发现能激励你的人和可以积极参与的活动
+休息锻炼 肌肉大脑
+与他人交流</description>
+    </item>
+    
+    <item>
+      <title>我的第一篇博客</title>
+      <link>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>学习如何用hugo搭建博客并托管到GitHub上 1.按教程搭建流程 （1)注册GitHub 安装git hugo Vs code
+（2）安装hugo 添加环境变量
+（3）检查是否配置成功 cmd
+（4）创建站点
+（5）下载主题
+​ 1）改host
+​ 2）刷新DNS
+​ 3）get clone
+（6）配置主题并编辑内容
+（7）创建博客文章
+（8）启动博客的本地预览
+（9）创建博客文章
+（10）生成静态文件（public）
+（11）设置全局用户名和邮箱（与GitHub一致）
+（12）博客部署或用GitHub desktop上传
+（13）查看博客
+2.问题原因与解决方案 (1)科学上网
+（2）解压软件压缩包后位置与教程不同后续难找到
+（3）找不到文件-未详读教程跳步-范围-搜索
+（4）cmd指令学习
+（5）在特定地方打开编辑（cmd vs git）
+（6）根目录MyBlog
+（7）出现众多问题-重试
+（8）git的全局用户名与GitHub用户名不一致
+（9）get push 时未能连接 未能更新文章成功-之前配置不成功
+3.感受 1）出现问题需自行搜索查找解决方案
+2）查一个问题又遇到问题时可删除从头重试，省却时间，步骤对的话亦可解决问题
+3）每一个坑都可能是成功路上那名为放弃的绊脚石
+4）与他人讨论、探讨、请教有时会比自己搞更加有效率
+5）独立思考必要性</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>数据域和数据链
+API 通过接口获取数据
+API（Application Programming Interface，应用程序接口）是一些预先定义的接口（如函数、HTTP接口），或指软件系统不同组成部分衔接的约定。 [1] 用来提供应用程序与开发人员基于某软件或硬件得以访问的一组例程，而又无需访问源码，或理解内部工作机制的细节
+数据返回data字段
+${date}取到当前字段数据域
+数据链
+不是所有组件支持自己data数据域crud
+通过接口拉取会被保存到data域；
+接口字段会覆盖原本静态字段
+自身数据域中找，一层一层向上找，同名字段
+真的数据替代假的数据
+数据之间相互铺盖
+lodash label圆角
+模板语法取值data[&amp;lsquo;date]
+服务service 组件数据初始化接口
+静态组件支持动态数据方法：拖到service里成为子组件
+子组件取父组件的数据域
+API发送请求的位置
+（请求发送：）
+请求模式：URL
+显隐规则
+this.number ==1 显示
+API与数据映射</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>APICloud 低代码 跨平台 混合应用 跨平台例子  JVM虚拟机  java JVM容器（解释源码）+统一API（jdk提供）/统一API(jre提供)-&amp;gt;屏蔽底层差异，在不同平台去运行，代码一致
+JDK包涵JRE(java运行环境）和开发环境（工具+类库）（javac编译 java运行，$.java-&amp;gt;.class$）
+ 浏览器引擎（js引擎、渲染引擎）
+  浏览器网页代码只需一份，提供容器，提供统一API
+同一份代码跑在不同平台的统一容器里
+签名 证明应用自己做 证书
+  版本管理SVN集中式 Git分布式
+  包结构
+  配置文件
+  Flex弹性布局（盒装模型）
+用法：dispaly:flex
+==设为Flex布局后子元素的float、clear、vertical-align将失效
+flex-direction值：row默认值，主轴为水平方向，起点在左端
+row-reverse：主轴为水平方向，起点在右端
+column:主轴为垂直方向，起点在上沿
+column：主轴为垂直方向，起点在下沿</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>EXCEL学习笔记 （2021/8/4）
+单元格长宽调整:  拖动格间边界 左键双击边界&amp;ndash;按合适长度缩放 选中行列以及要调整区域+移动行列行边界松开&amp;ndash;所选格宽度高度相同  光标移动  上下左右键鼠标点击 tab向右 shift+tab向左 enter键接着启动  置中   选中单元格点击对齐方式居中
+  创建跨多列标签&amp;ndash;合并单元格并居中
+  自动填充（自定义序列）  选中单元格（呈现变化规律）右下角小十字向下拉+系统按规律填充  日期   8,4 8.4 8月4日尽量不要有
+  选取2021/8/4斜杠形式 可用函数
+  control+: &amp;ndash; 打印当前日期
+  从下拉列表中选择  右键单元格找到从下拉列表中选择&amp;ndash;可直接打印先前打印过的内容  计算   10 * 20 = ——&amp;gt; = D2 *E3 等号放前面 行列号写出/点击
+  修改公式：选中单元格上方界面有公式/左键双击
+  复制粘贴单元格——可复制公式
+  下拉单元格——自动填充</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>面向过程语言：c
+面向对象语言：java
+对象
+类
+对象和类的关系
+java比c更常用的原因：安装JRE可在不同系统下应用
+c&amp;mdash;.exe&amp;mdash;（010101）
+java&amp;mdash;JRE（环境）&amp;mdash;.class（字节码）
+UML（统一建模语言）类图:用图形表示类和对象
+构造方法创建对象只能用一次
+要求：能识别会画图viso Rose
+类定义：
+{修饰符列表} class类名{
+类名 属性；
+构造方法名（）{
+}
+方法（）{
+}
+}
+成对出现
+读取器getA():int
+int getA(){
+return a;
+}
+修改器setA(int nA):void
+void setA(int nA){
+a=nA;
+}
+引用类型变量存储引用，是对象的存储地址
+基本类型变量板寸基本类型值
+静态方法
+Syntax error, insert &amp;ldquo;}&amp;rdquo; to complete Block 空格中文分号
+类常量放在类里面
+数据域在类里面，不在主方法里面
+java中习惯将类的成员变量属性设置为私有(private),并通过设置setXXX和getXXX方法来完成对成员变量的赋值和取值操作
+定义包后成功查找
+不能定义toString()变量-有返回值
+UML类图
+变量的作用域
+-private私有的&amp;ndash;同类
++public公共的&amp;ndash;同包
+无default&amp;ndash;不同包
+——下划线：静态变量或方法
+成员变量：类中定义 作用域：整个类体 初始化方式：使用前可不进行初始化由系统自行完成，只声明一次
+局部变量：类成员方法里变量+方法参数 作用域：方法 只限于定义它的代码块 初始化方式：在使用前必须初始化
+相同名字，局部变量优先，this.a引用成员变量
+私有属性公有方法读取器修改器操作
+System.out.println(c1.radius);
+System.out.println(c1.getRadius（)）;
+class Circle{</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>~ :主页面 $:普通用户
+命令
+  echo显示字符串
+  特殊字符
+  $name
+用$获取name的值
+  whoami
+用`执行命令返回结果(前后都有``)
+  -e \n
+选项-e 激活转义字符
+   echo -e &amp;ldquo;whoami is a student.\n&amp;rdquo;      -E \n
+禁止转义字符
+    who
+  date
+ date -2    bc
+ 交互式：回车获得运算结果 使用管道线| 将前面结果传到后面 进制转换 ibase输入进制 obase输出进制    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>注意事项
+ 没有类型强制转换 严格要求空格 弱类型 不用提前说明变量类型 每行句尾没有； 缩进方式随意 源代码文件：.py  Python语言优势：面向过程+面向对象 图形界面
+Python语言特点：通用语言 脚本语言 开源语言 跨平台语言 多模型语言
+运行Python程序两种方式：交互式、文件式
+交互式
+ 启动cmd。输入Python，在&amp;raquo;&amp;gt;后输入代码，输入exit() quit()可以退出运行环境   IDLE运行环境  文件式
+  按Python语法格式（没有&amp;laquo;&amp;lt;) 写.py形式文件
+  打开cmd进入.py文件所在目录
+  运行Python程序文件获得输出
+  IDLE运行环境
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>比较完善的基础代码库，可直接调用
+Python就为我们提供了非常完善的基础代码库，覆盖了网络、文件、GUI、数据库、文本等大量内容，被形象地称作“内置电池（batteries included）”。
+安装python
+cmd python 进入交互式环境
+Python官方的PyPi仓库为我们提供了一个统一的代码托管仓库,
+pip帮助我们自动从仓库上下载并安装第三方库，同时将该库所依赖的而本地没有安装的库一并安装，wheel文件格式，类似zip或rar文件，并提供专用的安装工具，帮助我们更快更简便的安装
+对Windows操作系统环境变量path的编辑，只是为了在命令行下可以无需带路径，直接执行一些程序，而不会出现程序文件无法找到的错误</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>title: &amp;ldquo;Typora学习&amp;rdquo; date: 2021-04-12 tags: [软件学习] draft: false
+ ==Typora学习== 1.即时渲染 2.偏好设置 3.快捷键  Ctrl +shift+[ 有序列表   Ctrl+shift+]无序列表     快捷键 效果     Ctrl +Y 重做   Ctrl +Z 撤销   Ctrl+B 加粗   Ctrl+shift+I 插入图片   Ctrl+shift+[ 有序列表（不能内嵌于表格）   Ctrl+shift+] 无序列表（不能内嵌于表格内）   Ctrl+I 斜体   Ctrl+T 表格（不能嵌套表格）   Ctrl+U 下划线    4.插入代码```c int a=0; import java.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>后端&amp;ndash;存储数据、处理数据的部分
+主要工作：编写处理数据的业务逻辑，需要记录请求情况和对功能进行测试。
+微型项目-TODO
+背景：长时间后的任务记录提醒
+idea提出：TODO（Django）
+需求分析：添加修改删除待办信息，展示待办信息列表
+Django:基于Python的web开发框架
+本地Djangoy原始项目预览 http://127.0.0.1:8000/
+创建项目django-admin startproject todoProject
+进文件夹cd todoProject
+运行项目python manage.py runserver
+?应该生成表格&amp;mdash;√
+创建templates static-样式文件夹
+两页面跳转
+​ 添加todourl.py 路径 处理函数 get 方式 返回页面 post处理数据 返回页面
+=》增删改查
+update拿过来 改 返回去
+删除.delete()
+小作业：修改+删除（交互）</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>后端实验性学习
+一.后端含义：数据的存储和处理
+二.主要内容点：
+业务逻辑（处理数据）
+日志：记录，方便后续查看
+测试 ：单元测试 集成测试
+功能点实现软件：作为我希望所以</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>1.2004.1 Eclipse基金会成立
+开源软件：高质量 零许可证费 自由 成本高风险高
+自由软件：用户运行、研究、复制、修改自由
+商业软件
+开源软件的版权&amp;ndash;GPL许可证 LGPL
+    版权 专利     对象 物品 技术/方法   需要申请 不需要 需要         </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>需求分析   “实现什么” √ “如何去实现” ×
+  需求类型
+ 功能性需求： 开始游戏 消除操作 达标计分 结束关卡 下一关卡 通关失败 非功能性需求：可靠性 运行速度 设计约束：pc端Linux或windows版本    系统设计过程
+ 概要设计：分析需求规格&amp;ndash;分解功能&amp;ndash;确定总体结构 详细设计：每个模块算法和数据结构    设计内容：
+ 架构设计 界面设计     createStars函数创建星星 返回星星到页面
+枚举类型
+Java学习整理系列之Java枚举类型的使用_Sup_Heaven的专栏-CSDN博客
+http://www.cnblogs.com/hyl8218/p/5088287.html
+实例化对象：RED (&amp;ldquo;红色&amp;rdquo;) &amp;mdash;- Light RED=new Light(&amp;ldquo;红色&amp;rdquo;);
+赋值时通过“枚举名.值”来取得相关枚举中的值
+类和属性的包含关系
+类的成员变量是对象属性</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>java中四类基本数据类型  整数类型：byte short int long 浮点型： float double 逻辑型：boolean（只可取true false） 字符型：char string  JSP内置对象和属性：   request对象
+客户端的请求信息被封装在request对象中，通过它才能了解到客户的需求，然后做出响应，是HttpServletRequest类的实例
+  response对象
+response对象包含了响应客户请求的有关信息，但在JSP中很少直接用到，是HttpServletResponse类的实例
+  session对象
+session对象指的是客户端与服务器的一次会话，从客户连到服务器的一个WebApplication开始，直到客户端与服务器断开连接为止，是HttpSession类的实例
+  out对象
+out对象是JspWriter类的实例，是向客户端输出内容常用的对象
+  page对象
+page对象就是指当前JSP页面本身，与类中this指针相似，是Java.lang.Objecta类的实例
+  application对象
+application对象实现了用户间数据的共享，可存放全局变量。开始于服务器的启动， 直到服务器的关闭，在此期间，此对象将一直存在；这样在用户的前后连接或不同用户之间的连接中，可以对此对象的同一属性进行操作；在任何地方对此对象属性的操作，都将影响到其他用户对此的访问。服务器的启动和关闭决定了application对象的生命， 是ServletContext类的实现
+  exception对象
+exception对象是一个例外对象，当一个页面在运行过程中发生了例外，就会产生这个对象。如果一个JSP页面要应用此对象，就必须把isErrorPage设为true，否则无法编译，是java.lang.Throwable的对象
+  pageContext对象
+pageContext对象提供了对JSP页面内所有的对象及名字空间的访问，也就是说他可以访问到本页所在的SESSION，也可以取本页面所在的application的某一属性值，它相当于页面中所有功能的集大成者，本类名也叫pageContext
+  config对象
+config对象是在一个Servlet初始化时，JSP引擎向他传递信息用的，此信息包括Servlet初始化时所要用到的参数（通过属性名和属性值构成)以及服务器的有关信息（通过传递一个ServletContext对象）
+  ArrayList 和 LinkedList ArrayList和LinkedList都实现了List接口
+ArrayList的内存结构是数组，本质是顺序存储的线性表，插入和删除操作都会引起后续元素移动，效率低，但随即访问率高。插入时，如果索引正确，容量够，则直接插入，插入位置之后的都需要移动，如果容易不够，还得扩充容量，开销不同不固定。
+LinkedList的内存结构是双向链表存储的，链式存储结构插入和删除效率高，不需要移动，但随机访问效率低，需要从头开始向后依次访问
+Boolean flag = false; if (flag = true) { System.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>文件放错文件夹</description>
     </item>
     
   </channel>
